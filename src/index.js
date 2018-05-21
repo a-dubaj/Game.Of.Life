@@ -89,7 +89,7 @@ seed = () => {
 
 playButton = () => {
   clearInterval(this.intervalId)
-  this.intervalId = setInterval(this.play, this.speed());
+  this.intervalId = setInterval(this.play, this.speed);
 }
 
 play = () => {
@@ -118,6 +118,7 @@ play = () => {
 
 componentDidMount(){
   this.seed();
+  this.playButton();
 }
 
   render() {
