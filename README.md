@@ -1,12 +1,17 @@
 # Game of Life
+The game is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves, or, for advanced players, by creating patterns with particular properties.
 
 [Link to application](https://coffeina.github.io/Game.Of.Life/)
+___
 
 <p align="center">
   <img width="640" height="480" src="assets/1.png">
 </p>
 
+___
+
 ## Seed function
+
 ```javascript
 seed = () => {
   let gridCopy = arrayClone(this.state.gridFull);
@@ -46,10 +51,13 @@ play = () => {
     });
 }
 ```
+___
 
 <p align="center">
   <img width="640" height="480" src="assets/2.png">
 </p>
+
+___
 
 
 ## Components
@@ -95,11 +103,13 @@ class Buttons extends React.Component {
   }
 }
 ```
+___
 
 <p align="center">
   <img width="640" height="480" src="assets/3.png">
 </p>
 
+___
 
 
 ## License
